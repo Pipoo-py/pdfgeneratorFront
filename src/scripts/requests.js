@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.API_URL
+const PUBLIC_API_URL = import.meta.env.PUBLIC_API_URL
 
 export const fetchPDF = async ({ title, content, options }) => {
   let parsedOptions = {
@@ -6,7 +6,7 @@ export const fetchPDF = async ({ title, content, options }) => {
     margin: parseInt(options.margin)
   }
   try {
-    let request = await fetch(`${API_URL}/generate-simple`, {
+    let request = await fetch(`${PUBLIC_API_URL}/generate-simple`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -26,7 +26,7 @@ export const fetchPDF = async ({ title, content, options }) => {
 export const fetchInvoicePDF = async (invoiceData) => {
   console.log({ ...invoiceData });
   try {
-    const response = await fetch(`${API_URL}/generate-invoice`, {
+    const response = await fetch(`${PUBLIC_API_URL}/generate-invoice`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
