@@ -1,4 +1,4 @@
-# GoPDF - Simple PDF Generator
+# izpdfgenerator - Simple PDF Generator
 
 Una aplicación web Full-Stack con un backend de alto rendimiento en Go y un frontend reactivo en Astro + Svelte para generar PDFs a partir de plantillas.
 
