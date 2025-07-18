@@ -52,8 +52,6 @@ La aplicación está diseñada con un frontend y un backend desacoplados.
 * **Backend**: Go
 * **Frontend**: Astro, Svelte, TypeScript
 
-### Filosofía
-
-Se eligió Go para el backend por su increíble rendimiento, bajo consumo de memoria y soporte nativo de primer nivel para la concurrencia. Esto lo hace ideal para un servicio que realiza tareas ligadas a I/O como la generación de un archivo. El resultado es una API rápida, fiable y eficiente que puede manejar múltiples peticiones con mínimos recursos de servidor.
+### Filosofía: Se eligió Go para el backend por su increíble rendimiento, bajo consumo de memoria y soporte nativo de primer nivel para la concurrencia. Esto lo hace ideal para un servicio que realiza tareas ligadas a I/O como la generación de un archivo. El resultado es una API rápida, fiable y eficiente que puede manejar múltiples peticiones con mínimos recursos de servidor.
 
 Made with ❤️ by Lizardiz Nexus.
